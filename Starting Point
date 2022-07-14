@@ -1,4 +1,5 @@
 ## INSTALL python api Trading Tool
+## load up the terminal to connect via API
 ## STARTING 
 ## plug in correct exchange
 
@@ -7,3 +8,10 @@ pip install python- "exchange"
 
 ## REAL example 
 pip install python-kucoin
+
+## second Ex.
+pip install python-binance.us
+
+## third 
+pip install python-binance
+
