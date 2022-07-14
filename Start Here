@@ -1,0 +1,9 @@
+## INSTALL python api Trading Tool
+## STARTING 
+## plug in correct exchange
+
+## Step 1
+pip install python- "exchange"
+
+## REAL example 
+pip install python-kucoin
