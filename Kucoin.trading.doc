@@ -1,0 +1,29 @@
+## quick install first to grab the provider
+pip install python-kucoin
+
+from kucoin.client import Client
+
+api_key = '<api_key>'
+api_secret = '<api_secret>'
+appi_passphrase = '<api_passphrase>'
+
+## use to grab your keys to connect w/
+client = Client(api_key, api_secret, api_passphrase)
+
+## get available currenices
+currencies = client.get_currencies()
+
+## get market depth orders
+depth = client.get_order_book('KCS-BTC')
+
+## get symbol klines
+klines = client.get_kline_data('KCS-BTC')
+
+## get list of markets
+markets = client.get_markets()
+
+## PLACE A MARKET ORDER BUY
+order = client.create_market_order('NEO', Client.SIDE_BUY, size=20)
+
+## get a list of active orders out
+orders = client.get_active_orders('KCS-BTC')
