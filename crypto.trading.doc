@@ -1,4 +1,7 @@
 ## quick install first to grab the provider
+## KUCOIN exchange only
+
+
 pip install python-kucoin
 
 from kucoin.client import Client
