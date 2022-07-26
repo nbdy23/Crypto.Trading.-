@@ -52,5 +52,5 @@ result = binanceus_request(uri_path, data, api_key, secret_key)
 print("POST {}: {}".format(uri_path, result))
 
 ## THEN POST (TEST)
-POST /api/v3/order (HMAC SHA256)
+POST /api/v3/order/test (HMAC SHA256)
 
