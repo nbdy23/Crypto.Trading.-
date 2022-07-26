@@ -1,6 +1,6 @@
 ## Crypto.Trading
 
-trading scripts
+Crypto exchange docs.-- trading scripts
 
 cryptotrading exchange API scripts
 
