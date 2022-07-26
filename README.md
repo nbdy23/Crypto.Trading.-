@@ -1,2 +1,8 @@
-# Crypto.Trading
-trading script plug-ins for MarketOrder trading
+## Crypto.Trading
+## trading scripts
+## cryptotrading exchange API scripts 
+
+Remember to TEST order placement beforehand
+APIs tend to change due to exchanges updating their infastructure
+
+ENJOY :)
